@@ -33,7 +33,7 @@ Setelah menyelesaikan mata kuliah ini, mahasiswa diharapkan mampu:
 - HTML semantik (header, footer, article, nav, dll.)
 - Formulir, tabel, dan elemen multimedia
 
-[https://universitas-ibbi.github.io/ibbi-si-iii-p1/minggu-1](https://universitas-ibbi.github.io/ibbi-si-iii-p1/minggu-1)
+[https://universitas-ibbi.github.io/ibbi-si-iii-p1/minggu-2](https://universitas-ibbi.github.io/ibbi-si-iii-p1/minggu-2)
 
 ### **Minggu 3**: Dasar-Dasar CSS
 - Sintaks CSS, selektor, dan properti
