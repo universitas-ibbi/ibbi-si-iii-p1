@@ -26,10 +26,14 @@ Setelah menyelesaikan mata kuliah ini, mahasiswa diharapkan mampu:
 - Sejarah dan evolusi teknologi *front-end*
 - Menyiapkan lingkungan pengembangan (text editor, browser, version control)
 
+[https://universitas-ibbi.github.io/ibbi-si-iii-p1/minggu-1](https://universitas-ibbi.github.io/ibbi-si-iii-p1/minggu-1)
+
 ### **Minggu 2**: Dasar-Dasar HTML
 - Struktur dokumen HTML
 - HTML semantik (header, footer, article, nav, dll.)
 - Formulir, tabel, dan elemen multimedia
+
+[https://universitas-ibbi.github.io/ibbi-si-iii-p1/minggu-1](https://universitas-ibbi.github.io/ibbi-si-v-m1/minggu-1)
 
 ### **Minggu 3**: Dasar-Dasar CSS
 - Sintaks CSS, selektor, dan properti
