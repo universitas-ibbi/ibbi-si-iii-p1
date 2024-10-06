@@ -41,6 +41,8 @@ Setelah menyelesaikan mata kuliah ini, mahasiswa diharapkan mampu:
 - Styling teks, latar belakang, dan border
 - Pengenalan Flexbox
 
+[https://universitas-ibbi.github.io/ibbi-si-iii-p1/minggu-3](https://universitas-ibbi.github.io/ibbi-si-iii-p1/minggu-3)
+
 ### **Minggu 4**: Desain Responsif dengan CSS
 - Media queries
 - Pengenalan CSS Grid
