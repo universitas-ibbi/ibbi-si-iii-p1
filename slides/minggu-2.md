@@ -1,5 +1,5 @@
 ---
-title: Marp
+title: Pendahuluan HTML
 version: 1.0.0
 theme: react
 header: Front-end Development for Web Design (Minggu 2)
