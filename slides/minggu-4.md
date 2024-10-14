@@ -35,6 +35,14 @@ Responsive Web Design (RWD) adalah teknik yang membuat desain web dapat menyesua
 
 Fluid grids adalah tata letak berbasis grid yang menggunakan unit relatif seperti persentase (%) atau unit relatif (em, rem) untuk mengatur ukuran elemen.
 
+```css
+/* Container utama menggunakan persentase untuk lebar */
+.container {
+  width: 90%; /* Menggunakan persentase sehingga ukurannya bersifat fleksibel */
+  margin: 0 auto; /* Menempatkan container di tengah */
+}
+```
+
 ---
 
 ## Flexible Media
@@ -74,16 +82,34 @@ Media Queries adalah fitur CSS yang memungkinkan pengembang untuk menerapkan gay
 ```
 ---
 
-## Responsive Images dan Media
+## CSS Breakpoints
+```css
+/* Mobile devices (portrait) */
+@media (max-width: 767px) {
+    /* Styles for phones and small mobile devices */
+}
 
-Gunakan properti max-width: 100% untuk memastikan gambar tidak lebih besar dari kontainernya.
-Atribut srcset digunakan untuk menyediakan gambar dengan resolusi berbeda.
+/* Tablets (portrait and landscape) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Styles for tablets */
+}
 
-```html
-<img srcset="small.jpg 500w, medium.jpg 1000w, large.jpg 1500w"
-     sizes="(max-width: 600px) 480px, (max-width: 1200px) 800px, 1000px"
-     src="default.jpg" alt="Responsive image">
-```
+/* Small laptops and large tablets */
+@media (min-width: 1025px) and (max-width: 1199px) {
+    /* Styles for small laptops or large tablets */
+}
+
+/* Laptops and desktops */
+@media (min-width: 1200px) and (max-width: 1599px) {
+    /* Styles for laptops and desktops */
+}
+
+/* Large desktops */
+@media (min-width: 1600px) {
+    /* Styles for large screens */
+}
+
+````
 
 ---
 
@@ -143,36 +169,6 @@ Framework seperti `Bootstrap` memudahkan penerapan desain responsif dengan kompo
 
 ---
 
-## Flexbox
-
-Digunakan untuk tata letak responsif yang satu dimensi (row atau column).
-
-```css
-.container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.item {
-  flex: 1 1 30%; /* Menyesuaikan ukuran item */
-}
-```
-
----
-
-## CSS Grid
-
-Cocok untuk tata letak dua dimensi yang lebih kompleks.
-
-```css
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-}
-```
-
----
-
 ## Responsive Navigation
 
 Desain navigasi yang responsif biasanya menggunakan menu hamburger untuk tampilan mobile.
@@ -209,31 +205,4 @@ Desain navigasi yang responsif biasanya menggunakan menu hamburger untuk tampila
 Gunakan Chrome DevTools atau Firefox Developer Tools untuk memeriksa bagaimana situs tampil di berbagai perangkat.
 
 **Contoh :** Di Chrome, buka situs, klik kanan → "Inspect" → pilih tampilan perangkat di toolbar.
-
----
-
-## Progressive Enhancement dan Graceful Degradation
-
-- Progressive Enhancement: Mulai dengan fitur dasar yang dapat diakses di semua perangkat, lalu tambahkan fitur-fitur lebih canggih untuk perangkat yang mendukung.
-
-- Graceful Degradation: Memulai dari desain kompleks, namun situs tetap berfungsi dengan baik meskipun fitur-fitur canggih tidak tersedia.
-
----
-
-## Performance Optimization untuk Desain Responsif
-
-Gunakan lazy loading untuk menunda pemuatan gambar hingga diperlukan.
-Minify CSS dan JavaScript untuk mengurangi ukuran file.
-
-```html
-<img src="image.jpg" loading="lazy" alt="Lazy Loaded Image">
-```
-
----
-
-## Tools dan Resources untuk Responsive Design
-
-- Figma atau Sketch untuk membuat mockup responsif.
-- Responsinator untuk menguji desain responsif di berbagai perangkat.
-Contoh: Responsinator (https://www.responsinator.com) memungkinkan pengembang menguji situs mereka pada berbagai ukuran layar.
 
