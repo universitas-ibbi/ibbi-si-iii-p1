@@ -1,0 +1,103 @@
+CSS Reset
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* rubah jenis font */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6; /* jarak antar baris */
+    /* rubah warna background */
+    background-color: #f9f9f9;
+    /* untuk ngasih jarak di dalam box element */
+    padding: 20px;
+}
+
+header {
+   background-color: #4CAF50; 
+   color: white;
+   padding: 20px;
+   text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em; /* ukuran font */
+    margin-bottom: 10px; /* jarak antara h1 dengan paragraf */
+}
+
+nav {
+    text-align: center; /* rata tengah */   
+    margin: 20px 0; /* jarak atas dan bawah */
+}
+
+nav a {
+    color: #4CAF50; /* warna font */
+    text-decoration: none; /* menghilangkan garis bawah */
+    font-size: 1.1em; /* ukuran font */
+    margin: 0 10px; /* jarak kiri dan kanan */
+}
+
+nav a:hover {
+    text-decoration: underline; /* garis bawah saat dihover */
+}
+
+section {
+    margin-bottom: 40px; /* jarak margin bawah */
+    padding: 20px; /* jarak padding */
+    background-color: #fff; /* warna background */
+    border-radius: 8px; /* border radius sudut */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* shadow */
+}
+
+img {
+    border-radius: 8px; /* border radius sudut */
+    margin-bottom: 20px; /* jarak margin bawah */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        /* shadow */
+}
+
+
+a {
+    color: #4CAF50; /* warna font */
+    text-decoration: none; /* menghilangkan garis bawah */
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline; /* garis bawah saat dihover */
+}
+
+
+form {
+    display: flex;;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    width: 100%
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
