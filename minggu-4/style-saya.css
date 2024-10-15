@@ -52,6 +52,7 @@ section {
 }
 
 img {
+    width: 20%;
     border-radius: 8px; /* border radius sudut */
     margin-bottom: 20px; /* jarak margin bawah */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
