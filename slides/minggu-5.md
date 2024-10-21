@@ -25,21 +25,26 @@ Grid Layout adalah teknik desain yang membagi halaman web ke dalam baris dan kol
 
 ## Manfaat penggunaan grid dalam desain responsif
 
-![bg contain right](./images/minggu-5-2.png)
+![bg contain right:30%](./images/minggu-5-2.png)
 
-- Keteraturan: Membuat layout lebih terorganisir dan rapi.
-- Fleksibilitas: Menyusun elemen berdasarkan baris dan kolom yang dapat disesuaikan dengan ukuran layar.
-- Responsif: Memungkinkan elemen layout menyesuaikan secara otomatis sesuai dengan ukuran viewport.
+- Membuat layout lebih terorganisir dan rapi.
+- Menyusun elemen berdasarkan baris dan kolom yang dapat disesuaikan dengan ukuran layar.
+- Memungkinkan elemen layout menyesuaikan secara otomatis sesuai dengan ukuran viewport.
 
 ---
 
 ## CSS Grid Layout
 
-CSS Grid Layout adalah sistem layout berbasis grid kolom dan baris yang memberikan fleksibilitas dalam menyusun elemen ke dalam baris dan kolom. Berikut beberapa konsep dasar:
+CSS Grid Layout adalah sistem layout berbasis grid kolom dan baris yang memberikan fleksibilitas dalam menyusun elemen ke dalam baris dan kolom. 
 
-- Grid Container: Elemen induk yang berfungsi sebagai wadah grid.
-- Grid Items: Elemen-elemen anak yang ditempatkan dalam grid container.
-- Grid Track: Baris (row) dan kolom (column) di dalam grid.
+---
+
+![bg right:40% contain](./images/minggu-5-5.jpg)
+Berikut beberapa konsep dasar:
+
+- `Grid Container`: Elemen induk yang berfungsi sebagai wadah grid.
+- `Grid Items`: Elemen-elemen anak yang ditempatkan dalam grid container.
+- `Grid Track`: Baris (row) dan kolom (column) di dalam grid.
 
 ---
 
@@ -47,9 +52,11 @@ CSS Grid Layout adalah sistem layout berbasis grid kolom dan baris yang memberik
 
 ```css
 .container {
- display: grid;
- grid-template-columns: repeat(3, 1fr); /* Membuat 3 kolom dengan lebar yang sama */
- grid-gap: 20px; /* Jarak antar elemen grid */
+  display: grid;
+  /* Membuat 3 kolom dengan lebar yang sama */
+  grid-template-columns: repeat(3, 1fr); 
+  /* Jarak antar elemen grid */
+  grid-gap: 20px; 
 }
 ```
 
@@ -85,9 +92,9 @@ Misalkan kita ingin membuat layout yang memiliki 3 kolom pada layar desktop, tet
 
 ```css
 .container {
- display: grid;
- grid-template-columns: repeat(3, 1fr); /* 3 kolom pada layar besar */
- grid-gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 kolom pada layar besar */
+  grid-gap: 20px;
 }
 
 @media (max-width: 768px) {
@@ -101,7 +108,9 @@ Misalkan kita ingin membuat layout yang memiliki 3 kolom pada layar desktop, tet
 
 ## Pengertian Grid Item
 
-Dalam CSS Grid Layout, grid item adalah elemen-elemen yang berada di dalam grid container. Setiap elemen anak langsung dari grid container secara otomatis menjadi grid item. Grid item ini dapat ditempatkan pada area tertentu di dalam grid menggunakan berbagai properti dan teknik yang disediakan oleh CSS Grid.
+![bg right contain](./images/minggu-5-6.png)
+
+Dalam CSS Grid Layout, grid item adalah elemen-elemen yang berada di dalam grid container. 
 
 ---
 
@@ -109,10 +118,10 @@ Dalam CSS Grid Layout, grid item adalah elemen-elemen yang berada di dalam grid 
 
 Ada beberapa properti yang bisa digunakan untuk mengatur posisi dan ukuran grid item di dalam grid container:
 
-- grid-column-start dan grid-column-end: Mengatur di mana grid item memulai dan mengakhiri pada kolom grid.
-- grid-row-start dan grid-row-end: Mengatur di mana grid item memulai dan mengakhiri pada baris grid.
-- grid-area: Mengatur posisi grid item berdasarkan kombinasi dari kolom dan baris.
-- justify-self dan align-self: Mengatur posisi grid item di dalam sel grid secara horizontal dan vertikal.
+- `grid-column-start` dan `grid-column-end`: Mengatur di mana grid item memulai dan mengakhiri pada kolom grid.
+- `grid-row-start` dan `grid-row-end`: Mengatur di mana grid item memulai dan mengakhiri pada baris grid.
+- `grid-area`: Mengatur posisi grid item berdasarkan kombinasi dari kolom dan baris.
+- `justify-self` dan `align-self`: Mengatur posisi grid item di dalam sel grid secara horizontal dan vertikal.
 
 ---
 
