@@ -51,11 +51,20 @@ Setelah menyelesaikan mata kuliah ini, mahasiswa diharapkan mampu:
  
 [https://universitas-ibbi.github.io/ibbi-si-iii-p1/minggu-4](https://universitas-ibbi.github.io/ibbi-si-iii-p1/minggu-4)
 
-### **Minggu 5**: Dasar-Dasar JavaScript
-- Sintaks dan variabel JavaScript
-- Kondisional, loop, dan fungsi
-- Manipulasi DOM
-- Event listener dan interaktivitas dasar
+### **Minggu 5**: Grid Layout
+- Pengenalan Grid dalam Responsive Web Design
+- Manfaat penggunaan grid dalam desain responsif
+- CSS Grid Layout
+- Properti dasar CSS Grid
+- Satuan fr
+- Fungsi repeat()
+- Contoh Kasus Implementasi Grid Responsif
+- Pengertian Grid Item
+- Properti untuk Mengatur Grid Item
+- Mengatur Grid Item dengan Grid Lines
+- Grid Area
+
+[https://universitas-ibbi.github.io/ibbi-si-iii-p1/minggu-5](https://universitas-ibbi.github.io/ibbi-si-iii-p1/minggu-5)
 
 ### **Minggu 6**: JavaScript Lanjutan
 - Objek, array, dan JSON
