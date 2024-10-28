@@ -66,15 +66,16 @@ Setelah menyelesaikan mata kuliah ini, mahasiswa diharapkan mampu:
 
 [https://universitas-ibbi.github.io/ibbi-si-iii-p1/minggu-5](https://universitas-ibbi.github.io/ibbi-si-iii-p1/minggu-5)
 
-### **Minggu 6**: JavaScript Lanjutan
-- Objek, array, dan JSON
-- Fitur ES6+ (arrow function, template literal, destructuring)
-- Fetch API untuk permintaan asinkron
+### **Minggu 6**: Version Control dengan Git dan GitHub
 
-### **Minggu 7**: Version Control dengan Git dan GitHub
 - Pengenalan dasar-dasar Git (commit, branch, merge)
 - Menyiapkan repositori GitHub
 - Kolaborasi di GitHub (pull request, issue)
+
+[https://universitas-ibbi.github.io/ibbi-si-iii-p1/minggu-6](https://universitas-ibbi.github.io/ibbi-si-iii-p1/minggu-6)
+
+### **Minggu 7**: 
+  
 
 ### **Minggu 8**: Proyek Tengah Semester
 - Proposal proyek dan pembentukan tim
