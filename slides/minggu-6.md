@@ -82,7 +82,7 @@ Membuat repositori baru:
 
 ```bash
 
-git init nama-repo
+git init [nama-repo]
 
 ```
 
@@ -181,7 +181,7 @@ Masuk ke GitHub, klik tombol "New" di halaman repositori, lalu isi nama dan desk
 
 ---
 
-**Menghubungkan Repository Lokal dengan GitHub:**
+### **Menghubungkan Repository Lokal dengan GitHub:**
 
 Pertama, buat repositori di GitHub, lalu hubungkan dengan repositori lokal:
 
@@ -195,7 +195,7 @@ git push -u origin main
 
 ---
 
-**Menarik Perubahan dari GitHub:**
+### **Menarik Perubahan dari GitHub:**
 
 Untuk menarik perubahan dari repositori GitHub:
 
@@ -204,10 +204,6 @@ Untuk menarik perubahan dari repositori GitHub:
 git pull origin main
 
 ```
----
-
-## **Pengantar GitHub Pages**
-
 ---
 
 ### **Apa itu GitHub Pages?**
