@@ -15,42 +15,42 @@ _paginate: skip -->
 
 ---
 
-### **Apa itu Git?**
+### Apa itu Git?
 
 Git adalah sistem kontrol versi terdistribusi yang memungkinkan pengembang untuk melacak perubahan dalam proyek mereka, berkolaborasi dengan orang lain, dan mengelola riwayat proyek.
 
 ---
 
-### **Mengapa menggunakan Git?**
+### Mengapa menggunakan Git?
 
 Git memungkinkan tim untuk bekerja secara bersamaan tanpa saling mengganggu, memudahkan rollback ke versi sebelumnya, dan menyediakan alat untuk mengelola konflik perubahan.
 
 ---
 
-## **Konsep Dasar Git:**
+## Konsep Dasar Git:
 
 ---
 
-### **Repository:** 
+### Repository: 
 
 Tempat menyimpan semua file dan riwayat perubahan proyek.
 
 ---
 
-### **Commit:**
+### Commit:
 
 Merekam perubahan yang telah dilakukan. Setiap commit memiliki ID unik dan pesan yang menjelaskan perubahan.
 
 ---
 
-## **Instalasi Git**
+## Instalasi Git
 
 ---
 
-### **Cara menginstal Git:**
-- **Windows:** Unduh installer dari [git-scm.com](https://git-scm.com) dan ikuti petunjuk instalasi.
-- **macOS:** Gunakan Homebrew dengan perintah `brew install git`.
-- **Linux:** Gunakan manajer paket seperti `apt` atau `yum`, misalnya:
+### Cara menginstal Git:
+- Windows: Unduh installer dari [git-scm.com](https://git-scm.com) dan ikuti petunjuk instalasi.
+- macOS: Gunakan Homebrew dengan perintah `brew install git`.
+- Linux: Gunakan manajer paket seperti `apt` atau `yum`, misalnya:
 
 ```bash
 sudo apt install git
@@ -58,7 +58,7 @@ sudo apt install git
 
 ---
 
-### **Konfigurasi Git:**
+### Konfigurasi Git:
 
 Setelah instalasi, atur nama pengguna dan email dengan perintah berikut:
 
@@ -72,11 +72,11 @@ git config --global user.email "email@domain.com"
 
 ---
 
-## **Dasar-dasar Perintah Git**
+## Dasar-dasar Perintah Git
 
 ---
 
-### **Inisialisasi Repository:**
+### Inisialisasi Repository:
 
 Membuat repositori baru:
 
@@ -88,7 +88,7 @@ git init [nama-repo]
 
 ---
 
-### **Menambahkan File:**
+### Menambahkan File:
 
 Menambahkan file baru ke staging area:
 
@@ -100,7 +100,7 @@ git add index.html
 
 ---
 
-### **Menyimpan Perubahan:**
+### Menyimpan Perubahan:
 
 Merekam perubahan ke dalam repository:
 
@@ -113,7 +113,7 @@ git commit -m "Menambahkan file index.html"
 ---
 
 
-### **Melihat Status:**
+### Melihat Status:
 
 Mengecek status repositori:
 
@@ -125,7 +125,7 @@ git status
 
 ---
 
-### **Melihat Riwayat Commit:**
+### Melihat Riwayat Commit:
 
 Melihat riwayat commit:
 
@@ -137,7 +137,7 @@ git log
 
 ---
 
-### **Menghapus File:**
+### Menghapus File:
 
 Menghapus file dari repositori:
 
@@ -149,39 +149,39 @@ git rm index.html
 
 ---
 
-## **Pengantar GitHub**
+## Pengantar GitHub
 
 ---
 
-### **Apa itu GitHub?**
+### Apa itu GitHub?
 
 GitHub adalah platform berbasis web yang memungkinkan pengembang untuk meng-host repositori Git secara online dan berkolaborasi dengan tim.
 
 ---
 
-### **Fitur Utama GitHub:**
+### Fitur Utama GitHub:
 
 GitHub menawarkan berbagai fitur seperti repository, issues untuk melacak bug, dan pull requests untuk mengusulkan perubahan.
 
 ---
 
-### **Perbedaan antara Git dan GitHub:**
+### Perbedaan antara Git dan GitHub:
 
 Git adalah alat kontrol versi lokal, sedangkan GitHub adalah layanan online yang menyediakan penyimpanan repositori Git dan kolaborasi.
 
 ---
 
-## **Membuat dan Mengelola Repository di GitHub**
+## Membuat dan Mengelola Repository di GitHub
 
 ---
 
-### **Membuat Repository Baru:**
+### Membuat Repository Baru:
 
 Masuk ke GitHub, klik tombol "New" di halaman repositori, lalu isi nama dan deskripsi repositori.
 
 ---
 
-### **Menghubungkan Repository Lokal dengan GitHub:**
+### Menghubungkan Repository Lokal dengan GitHub:
 
 Pertama, buat repositori di GitHub, lalu hubungkan dengan repositori lokal:
 
@@ -195,7 +195,7 @@ git push -u origin main
 
 ---
 
-### **Menarik Perubahan dari GitHub:**
+### Menarik Perubahan dari GitHub:
 
 Untuk menarik perubahan dari repositori GitHub:
 
@@ -206,13 +206,13 @@ git pull origin main
 ```
 ---
 
-### **Apa itu GitHub Pages?**
+### Apa itu GitHub Pages?
 
 Layanan GitHub untuk menghosting halaman web statis dari repositori Git.
 
 ---
 
-### **Membuat Halaman GitHub Pages:**
+### Membuat Halaman GitHub Pages:
 
 Kamu dapat membuat branch `gh-pages` dan menambahkan file HTML untuk membuat halaman:
 
@@ -230,7 +230,7 @@ git push origin gh-pages
 
 ---
 
-### **Menambahkan Konten ke Halaman GitHub Pages:**
+### Menambahkan Konten ke Halaman GitHub Pages:
 
 Kamu bisa menggunakan HTML, CSS, dan JavaScript untuk mengembangkan halaman web.
 
