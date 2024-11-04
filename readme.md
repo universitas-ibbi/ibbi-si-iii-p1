@@ -74,8 +74,10 @@ Setelah menyelesaikan mata kuliah ini, mahasiswa diharapkan mampu:
 
 [https://universitas-ibbi.github.io/ibbi-si-iii-p1/minggu-6](https://universitas-ibbi.github.io/ibbi-si-iii-p1/minggu-6)
 
-### **Minggu 7**: 
-  
+### **Minggu 7**: Bootstrap CSS Framework
+
+[https://universitas-ibbi.github.io/ibbi-si-iii-p1/minggu-7](https://universitas-ibbi.github.io/ibbi-si-iii-p1/minggu-7)
+
 
 ### **Minggu 8**: Proyek Tengah Semester
 - Proposal proyek dan pembentukan tim
