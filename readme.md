@@ -76,21 +76,28 @@ Setelah menyelesaikan mata kuliah ini, mahasiswa diharapkan mampu:
 
 ### **Minggu 7**: Bootstrap CSS Framework
 
+- Apa Itu Bootstrap?
+- Kelebihan Bootstrap
+- Mudah Digunakan
+- Responsif
+- Instalasi Bootstrap
+- Komponen Bootstrap
+- Dokumentasi Bootstrap
+
 [https://universitas-ibbi.github.io/ibbi-si-iii-p1/minggu-7](https://universitas-ibbi.github.io/ibbi-si-iii-p1/minggu-7)
 
 
-### **Minggu 8**: Proyek Tengah Semester
-- Proposal proyek dan pembentukan tim
-- Membuat wireframe untuk situs web atau aplikasi web kecil
-- Mengembangkan struktur *front-end* menggunakan HTML, CSS, dan JavaScript
+### **Minggu 8**: Ujian Tengah Semester
 
 **Proyek**: Membangun situs web responsif sederhana dengan interaktivitas
 
 ### **Minggu 9**: Pengenalan *Framework* *Front-End* (React)
-- Pengenalan React
-- JSX dan komponen
-- State dan props dalam React
-- Siklus hidup komponen
+
+- Container
+- Breakpoints
+- Grid
+
+[https://universitas-ibbi.github.io/ibbi-si-iii-p1/minggu-9](https://universitas-ibbi.github.io/ibbi-si-iii-p1/minggu-9)
 
 ### **Minggu 10**: React Lanjutan
 - Hooks dalam React (useState, useEffect)
