@@ -107,19 +107,10 @@ Setelah menyelesaikan mata kuliah ini, mahasiswa diharapkan mampu:
 
 [https://universitas-ibbi.github.io/ibbi-si-iii-p1/minggu-12](https://universitas-ibbi.github.io/ibbi-si-iii-p1/minggu-12)
 
-### **Minggu 13**: Prinsip Desain UI/UX
-- Dasar-dasar desain UI (teori warna, tipografi, spasi)
-- Prinsip UX (user flows, persona, wireframing)
-- Alat prototyping (Figma, Adobe XD)
+### **Minggu 13**: 
 W
-### **Minggu 14**: Integrasi *Front-End* dengan *Back-End*
-- Cara *front-end* berinteraksi dengan layanan *back-end*
-- Bekerja dengan API RESTful
-- Pengenalan GraphQL
+### **Minggu 14**: 
 
-### **Minggu 15**: Proyek Akhir dan Presentasi
-- Menyelesaikan proyek *front-end* skala penuh
-- Mahasiswa mempresentasikan proyek mereka (situs web/aplikasi web)
-- Tinjauan dan umpan balik dari teman sebaya
+### **Minggu 15**: 
 
 ---
