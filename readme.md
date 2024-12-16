@@ -91,7 +91,7 @@ Setelah menyelesaikan mata kuliah ini, mahasiswa diharapkan mampu:
 
 **Proyek**: Membangun situs web responsif sederhana dengan interaktivitas
 
-### **Minggu 9**: Pengenalan *Framework* *Front-End* (React)
+### **Minggu 9**: Bootstrap CSS Framework (Lanjutan)
 
 - Container
 - Breakpoints
@@ -99,20 +99,13 @@ Setelah menyelesaikan mata kuliah ini, mahasiswa diharapkan mampu:
 
 [https://universitas-ibbi.github.io/ibbi-si-iii-p1/minggu-9](https://universitas-ibbi.github.io/ibbi-si-iii-p1/minggu-9)
 
-### **Minggu 10**: React Lanjutan
-- Hooks dalam React (useState, useEffect)
-- React Router untuk navigasi
-- Pengelolaan state dengan Context API atau Redux
+### **Minggu 10**: Design Business Web
 
-### **Minggu 11**: Bekerja dengan API di React
-- Mengonsumsi API di React dengan fetch atau Axios
-- Menangani respons dan error API
-- Menampilkan data dinamis di komponen
+### **Minggu 11**: Design Ecommerce Web
 
-### **Minggu 12**: Pengujian Aplikasi *Front-End*
-- Unit testing dengan Jest
-- Pengujian integrasi dengan React Testing Library
-- Debugging dan troubleshooting di browser
+### **Minggu 12**: SEO
+
+[https://universitas-ibbi.github.io/ibbi-si-iii-p1/minggu-12](https://universitas-ibbi.github.io/ibbi-si-iii-p1/minggu-12)
 
 ### **Minggu 13**: Prinsip Desain UI/UX
 - Dasar-dasar desain UI (teori warna, tipografi, spasi)
