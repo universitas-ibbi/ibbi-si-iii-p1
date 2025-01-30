@@ -120,3 +120,8 @@ W
 - Tinjauan dan umpan balik dari teman sebaya
 
 ---
+
+
+### UAS TEORI
+
+[Link Soal UAS Teori](./UAS-TEORI/readme.md)

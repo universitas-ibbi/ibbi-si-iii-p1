@@ -1,0 +1,22 @@
+# SOAL UAS TEORI
+
+- Jelaskan apa yang dimaksud dengan pengembangan web *front-end* dan bagaimana perannya dalam sebuah aplikasi web!
+- Sebutkan dan jelaskan tiga elemen dasar yang wajib ada dalam dokumen HTML!
+- Apa yang dimaksud dengan *semantic HTML*? Berikan contoh penggunaannya dalam kode HTML!
+- Jelaskan konsep *box model* dalam CSS dan bagaimana cara menggunakannya untuk mengatur tata letak sebuah elemen!
+- Apa perbedaan antara *class selector* dan *id selector* dalam CSS? Berikan masing-masing contoh penggunaannya!
+- Jelaskan prinsip dasar desain responsif dan mengapa prinsip ini penting dalam pengembangan web modern!
+- Sebutkan langkah-langkah utama dalam membuat desain responsif menggunakan media query di CSS, lengkap dengan contoh kode!
+- Apa perbedaan utama antara *flexbox* dan *grid layout* dalam CSS? Berikan situasi di mana masing-masing lebih efektif digunakan!
+- Berikan contoh penggunaan *grid layout* untuk membuat tata letak halaman web sederhana dengan dua kolom dan tiga baris!
+- Jelaskan apa itu *version control* dan bagaimana Git membantu dalam proses pengembangan web secara kolaboratif!
+- Sebutkan langkah-langkah untuk melakukan *commit* dan *push* perubahan kode ke GitHub!
+- Jelaskan apa itu Bootstrap dan bagaimana framework ini membantu dalam mempercepat pengembangan web *front-end*!
+- Berikan contoh penggunaan komponen Bootstrap untuk membuat sebuah *navbar* responsif!
+- Jelaskan prinsip dasar desain pengalaman pengguna (UX) yang perlu dipertimbangkan dalam pengembangan situs e-commerce!
+- Sebutkan dan jelaskan tiga praktik terbaik dalam optimisasi performa *front-end*!
+- Apa itu aksesibilitas web, dan mengapa hal ini menjadi salah satu elemen penting dalam pengembangan web modern?
+- Berikan penjelasan tentang SEO (*Search Engine Optimization*) dan bagaimana pengembang *front-end* dapat berkontribusi dalam meningkatkan SEO sebuah situs web!
+- Apa saja tag HTML yang memiliki dampak besar terhadap SEO? Berikan penjelasan dan contoh penggunaannya!
+- Sebutkan tantangan terbesar yang biasanya dihadapi dalam pengembangan *front-end*, dan bagaimana Anda akan mengatasinya?
+- Pelajari contoh kode dari project yang pernah kita pelajari.
